@@ -1,4 +1,4 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 using System;
 
@@ -6,21 +6,16 @@ namespace SportScraper
 {
     class Program
     {
-        static void Main(string[] args)
-        {            
-            Console.WriteLine("Sport scraper running");
-            CreateHost(args).Build().Run();
+        public static void Main(string[] args)
+        {
+            CreateHostBuilder(args).Build().Run();
         }
 
-        public static IHostBuilder CreateHost(string[] args)
-        {
-            return Host.CreateDefaultBuilder(args)
-                .ConfigureServices((context, services) =>
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    services.AddSingleton<IResultWriter, XmlResultWriter>();
-                    services.AddHttpClient();
-                    services.AddHostedService<BasicFitScraper>();
+                    webBuilder.UseStartup<Startup>();
                 });
-        }
     }
 }

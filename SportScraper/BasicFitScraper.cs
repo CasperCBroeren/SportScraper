@@ -31,7 +31,8 @@ namespace SportScraper
             var client = this.httpClientFactory.CreateClient();
             foreach (var site in sites)
             {
-                var url = site.Value;
+                var clubId = site.Value.Substring(site.Value.Length - 37, 32);
+                var url = $"https://www.basic-fit.com/on/demandware.store/Sites-BFE-Site/nl_NL/Booker-Timetable?club_id={clubId}&seotitle=Sportschool%20Schiedam%20De%20Brauwweg&seosequence=13?club_id={clubId}";
                 Console.WriteLine($"Scraping site: {url}");
                 var body = await client.GetStringAsync(url);
                 var doc = new HtmlDocument();
@@ -59,17 +60,12 @@ namespace SportScraper
                                 From = ConstructWithTime(day, time[0].Trim()),
                                 To = ConstructWithTime(day, time[1].Trim()),
                             });
-                        }
-                        else
-                        {
-                            Console.WriteLine($"Not written {name} and {time}");
-                        }
+                        }                       
                     }
 
                 }
             }
-            this.resultWriter.ProducerEnds();
-            await this.StopAsync(cancellationToken);
+            this.resultWriter.ProducerEnds(); 
         }
 
         private DateTime ConstructWithTime(DateTime day, string hourMinutes)
@@ -118,11 +114,6 @@ namespace SportScraper
                 "Dec" => 12,
                 _ => DateTime.Now.Month
             };
-        }
-
-        private DateTime[] parseHeaders(string headers)
-        {
-            throw new NotImplementedException();
         }
 
         public Task StopAsync(CancellationToken cancellationToken)

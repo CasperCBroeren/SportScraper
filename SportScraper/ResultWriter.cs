@@ -11,6 +11,8 @@ namespace SportScraper
         void RegisterProducer();
         void SaveToOuput(UniformGroupLesson item);
         void ProducerEnds();
+
+        IReadOnlyList<UniformGroupLesson> All();
     }
 
     public class XmlResultWriter : IResultWriter
@@ -24,6 +26,9 @@ namespace SportScraper
             this.resultPath = configuration.GetValue<string>("result");
 
         }
+
+        public IReadOnlyList<UniformGroupLesson> All() => items;
+
         public void ProducerEnds()
         {
             producerCount--;
