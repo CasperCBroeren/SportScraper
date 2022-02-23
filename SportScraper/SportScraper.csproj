@@ -18,5 +18,9 @@
     <PackageReference Include="Microsoft.Extensions.Http" Version="6.0.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.0" />
   </ItemGroup>
-
+  <ItemGroup>
+    <!-- extends watching group to include *.cshtml files -->
+    <Watch Include="**\*.cshtml" Exclude="node_modules\**\*;**\*.js.map;obj\**\*;bin\**\*" />
+  </ItemGroup>
+ 
 </Project>

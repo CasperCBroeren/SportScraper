@@ -262,13 +262,6 @@
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
-    <Name>BodyCombat 60</Name>
-    <From>2022-02-23T20:00:00</From>
-    <To>2022-02-23T21:00:00</To>
-  </UniformGroupLesson>
-  <UniformGroupLesson>
-    <Provider>BasicFit</Provider>
-    <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Booty</Name>
     <From>2022-02-23T21:30:00</From>
     <To>2022-02-23T22:00:00</To>
@@ -706,6 +699,13 @@
     <Name>Shape</Name>
     <From>2022-02-22T15:30:00</From>
     <To>2022-02-22T16:00:00</To>
+  </UniformGroupLesson>
+  <UniformGroupLesson>
+    <Provider>BasicFit</Provider>
+    <Location>Schiedam De Brauwweg 46</Location>
+    <Name>Barbell</Name>
+    <From>2022-02-22T16:30:00</From>
+    <To>2022-02-22T17:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
