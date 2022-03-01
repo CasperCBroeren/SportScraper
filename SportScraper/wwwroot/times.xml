@@ -4,1127 +4,1120 @@
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Xcore</Name>
-    <From>2022-02-21T07:30:00</From>
-    <To>2022-02-21T08:00:00</To>
+    <From>2022-02-28T07:30:00</From>
+    <To>2022-02-28T08:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>BRN 60</Name>
-    <From>2022-02-21T09:00:00</From>
-    <To>2022-02-21T10:00:00</To>
+    <From>2022-02-28T09:00:00</From>
+    <To>2022-02-28T10:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Yoga</Name>
-    <From>2022-02-21T10:30:00</From>
-    <To>2022-02-21T11:30:00</To>
+    <From>2022-02-28T10:30:00</From>
+    <To>2022-02-28T11:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Shape</Name>
-    <From>2022-02-21T11:30:00</From>
-    <To>2022-02-21T12:00:00</To>
+    <From>2022-02-28T11:30:00</From>
+    <To>2022-02-28T12:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Bootcamp</Name>
-    <From>2022-02-21T12:30:00</From>
-    <To>2022-02-21T13:00:00</To>
+    <From>2022-02-28T12:30:00</From>
+    <To>2022-02-28T13:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Barbell</Name>
-    <From>2022-02-21T13:30:00</From>
-    <To>2022-02-21T14:00:00</To>
+    <From>2022-02-28T13:30:00</From>
+    <To>2022-02-28T14:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Dance Special</Name>
-    <From>2022-02-21T14:30:00</From>
-    <To>2022-02-21T15:00:00</To>
+    <From>2022-02-28T14:30:00</From>
+    <To>2022-02-28T15:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Box</Name>
-    <From>2022-02-21T15:30:00</From>
-    <To>2022-02-21T16:00:00</To>
+    <From>2022-02-28T15:30:00</From>
+    <To>2022-02-28T16:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Aerobics</Name>
-    <From>2022-02-21T16:30:00</From>
-    <To>2022-02-21T17:10:00</To>
+    <From>2022-02-28T16:30:00</From>
+    <To>2022-02-28T17:10:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Freedom Mix 60</Name>
-    <From>2022-02-21T18:00:00</From>
-    <To>2022-02-21T19:00:00</To>
+    <From>2022-02-28T18:00:00</From>
+    <To>2022-02-28T19:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>BodyCombat 60</Name>
-    <From>2022-02-21T19:00:00</From>
-    <To>2022-02-21T20:00:00</To>
+    <From>2022-02-28T19:00:00</From>
+    <To>2022-02-28T20:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>BodyPump 60</Name>
-    <From>2022-02-21T20:00:00</From>
-    <To>2022-02-21T21:00:00</To>
+    <From>2022-02-28T20:00:00</From>
+    <To>2022-02-28T21:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>BodyBalance 60</Name>
-    <From>2022-02-21T21:00:00</From>
-    <To>2022-02-21T22:00:00</To>
+    <From>2022-02-28T21:00:00</From>
+    <To>2022-02-28T22:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Dance Special</Name>
-    <From>2022-02-22T08:00:00</From>
-    <To>2022-02-22T08:30:00</To>
+    <From>2022-03-01T08:00:00</From>
+    <To>2022-03-01T08:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>BodyPump 60</Name>
-    <From>2022-02-22T09:00:00</From>
-    <To>2022-02-22T10:00:00</To>
+    <From>2022-03-01T09:00:00</From>
+    <To>2022-03-01T10:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>GRIT Series 30</Name>
-    <From>2022-02-22T10:00:00</From>
-    <To>2022-02-22T10:30:00</To>
+    <From>2022-03-01T10:00:00</From>
+    <To>2022-03-01T10:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Barbell</Name>
-    <From>2022-02-22T11:00:00</From>
-    <To>2022-02-22T11:30:00</To>
+    <From>2022-03-01T11:00:00</From>
+    <To>2022-03-01T11:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Box</Name>
-    <From>2022-02-22T12:00:00</From>
-    <To>2022-02-22T12:30:00</To>
+    <From>2022-03-01T12:00:00</From>
+    <To>2022-03-01T12:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Abs &amp;amp; Core</Name>
-    <From>2022-02-22T13:00:00</From>
-    <To>2022-02-22T13:30:00</To>
+    <From>2022-03-01T13:00:00</From>
+    <To>2022-03-01T13:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Aerobics</Name>
-    <From>2022-02-22T14:00:00</From>
-    <To>2022-02-22T14:40:00</To>
+    <From>2022-03-01T14:00:00</From>
+    <To>2022-03-01T14:40:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Yoga</Name>
-    <From>2022-02-22T15:00:00</From>
-    <To>2022-02-22T16:00:00</To>
+    <From>2022-03-01T15:00:00</From>
+    <To>2022-03-01T16:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Shape</Name>
-    <From>2022-02-22T16:00:00</From>
-    <To>2022-02-22T16:30:00</To>
+    <From>2022-03-01T16:00:00</From>
+    <To>2022-03-01T16:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Bootcamp</Name>
-    <From>2022-02-22T17:00:00</From>
-    <To>2022-02-22T17:30:00</To>
+    <From>2022-03-01T17:00:00</From>
+    <To>2022-03-01T17:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Zumba 60</Name>
-    <From>2022-02-22T18:00:00</From>
-    <To>2022-02-22T19:00:00</To>
+    <From>2022-03-01T18:00:00</From>
+    <To>2022-03-01T19:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>XCORE 60</Name>
-    <From>2022-02-22T19:00:00</From>
-    <To>2022-02-22T20:00:00</To>
+    <From>2022-03-01T19:00:00</From>
+    <To>2022-03-01T20:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Abs &amp;amp; Core</Name>
-    <From>2022-02-22T21:00:00</From>
-    <To>2022-02-22T21:30:00</To>
+    <From>2022-03-01T21:00:00</From>
+    <To>2022-03-01T21:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Bootcamp</Name>
-    <From>2022-02-23T07:30:00</From>
-    <To>2022-02-23T08:00:00</To>
+    <From>2022-03-02T07:30:00</From>
+    <To>2022-03-02T08:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>XCORE 60</Name>
-    <From>2022-02-23T09:00:00</From>
-    <To>2022-02-23T10:00:00</To>
+    <From>2022-03-02T09:00:00</From>
+    <To>2022-03-02T10:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Strong Nation 60</Name>
-    <From>2022-02-23T10:00:00</From>
-    <To>2022-02-23T11:00:00</To>
+    <From>2022-03-02T10:00:00</From>
+    <To>2022-03-02T11:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Dance Special</Name>
-    <From>2022-02-23T11:30:00</From>
-    <To>2022-02-23T12:00:00</To>
+    <From>2022-03-02T11:30:00</From>
+    <To>2022-03-02T12:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Booty</Name>
-    <From>2022-02-23T12:30:00</From>
-    <To>2022-02-23T13:00:00</To>
+    <From>2022-03-02T12:30:00</From>
+    <To>2022-03-02T13:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Shape</Name>
-    <From>2022-02-23T13:30:00</From>
-    <To>2022-02-23T14:00:00</To>
+    <From>2022-03-02T13:30:00</From>
+    <To>2022-03-02T14:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Abs &amp;amp; Core</Name>
-    <From>2022-02-23T14:30:00</From>
-    <To>2022-02-23T15:00:00</To>
+    <From>2022-03-02T14:30:00</From>
+    <To>2022-03-02T15:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Barbell</Name>
-    <From>2022-02-23T15:30:00</From>
-    <To>2022-02-23T16:00:00</To>
+    <From>2022-03-02T15:30:00</From>
+    <To>2022-03-02T16:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Yoga</Name>
-    <From>2022-02-23T16:30:00</From>
-    <To>2022-02-23T17:30:00</To>
+    <From>2022-03-02T16:30:00</From>
+    <To>2022-03-02T17:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>ShBam 60</Name>
-    <From>2022-02-23T18:00:00</From>
-    <To>2022-02-23T19:00:00</To>
+    <From>2022-03-02T18:00:00</From>
+    <To>2022-03-02T19:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>BodyPump 60</Name>
-    <From>2022-02-23T19:00:00</From>
-    <To>2022-02-23T20:00:00</To>
+    <From>2022-03-02T19:00:00</From>
+    <To>2022-03-02T20:00:00</To>
+  </UniformGroupLesson>
+  <UniformGroupLesson>
+    <Provider>BasicFit</Provider>
+    <Location>Schiedam Prinses Beatrixlaan 4</Location>
+    <Name>BodyCombat 60</Name>
+    <From>2022-03-02T20:00:00</From>
+    <To>2022-03-02T21:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Booty</Name>
-    <From>2022-02-23T21:30:00</From>
-    <To>2022-02-23T22:00:00</To>
+    <From>2022-03-02T21:30:00</From>
+    <To>2022-03-02T22:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Yoga</Name>
-    <From>2022-02-24T08:00:00</From>
-    <To>2022-02-24T08:40:00</To>
+    <From>2022-03-03T08:00:00</From>
+    <To>2022-03-03T08:40:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Freedom Pilates 60</Name>
-    <From>2022-02-24T09:00:00</From>
-    <To>2022-02-24T10:00:00</To>
+    <From>2022-03-03T09:00:00</From>
+    <To>2022-03-03T10:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Bootcamp</Name>
-    <From>2022-02-24T11:00:00</From>
-    <To>2022-02-24T11:30:00</To>
+    <From>2022-03-03T11:00:00</From>
+    <To>2022-03-03T11:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Aerobics</Name>
-    <From>2022-02-24T12:00:00</From>
-    <To>2022-02-24T12:40:00</To>
+    <From>2022-03-03T12:00:00</From>
+    <To>2022-03-03T12:40:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Abs &amp;amp; Core</Name>
-    <From>2022-02-24T13:00:00</From>
-    <To>2022-02-24T13:30:00</To>
+    <From>2022-03-03T13:00:00</From>
+    <To>2022-03-03T13:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Shape</Name>
-    <From>2022-02-24T14:00:00</From>
-    <To>2022-02-24T14:30:00</To>
+    <From>2022-03-03T14:00:00</From>
+    <To>2022-03-03T14:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Barbell</Name>
-    <From>2022-02-24T15:00:00</From>
-    <To>2022-02-24T15:30:00</To>
+    <From>2022-03-03T15:00:00</From>
+    <To>2022-03-03T15:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Dance Special</Name>
-    <From>2022-02-24T16:00:00</From>
-    <To>2022-02-24T16:30:00</To>
+    <From>2022-03-03T16:00:00</From>
+    <To>2022-03-03T16:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Booty</Name>
-    <From>2022-02-24T17:00:00</From>
-    <To>2022-02-24T17:30:00</To>
+    <From>2022-03-03T17:00:00</From>
+    <To>2022-03-03T17:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Booty 30</Name>
-    <From>2022-02-24T18:30:00</From>
-    <To>2022-02-24T19:00:00</To>
+    <From>2022-03-03T18:30:00</From>
+    <To>2022-03-03T19:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>XCORE 60</Name>
-    <From>2022-02-24T19:00:00</From>
-    <To>2022-02-24T20:00:00</To>
+    <From>2022-03-03T19:00:00</From>
+    <To>2022-03-03T20:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>BRN 60</Name>
-    <From>2022-02-24T20:00:00</From>
-    <To>2022-02-24T21:00:00</To>
-  </UniformGroupLesson>
-  <UniformGroupLesson>
-    <Provider>BasicFit</Provider>
-    <Location>Schiedam Prinses Beatrixlaan 4</Location>
-    <Name>Freedom Pilates 60</Name>
-    <From>2022-02-24T21:00:00</From>
-    <To>2022-02-24T22:00:00</To>
+    <From>2022-03-03T20:00:00</From>
+    <To>2022-03-03T21:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Abs &amp;amp; Core</Name>
-    <From>2022-02-25T07:30:00</From>
-    <To>2022-02-25T08:00:00</To>
+    <From>2022-03-04T07:30:00</From>
+    <To>2022-03-04T08:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>BodyPump 60</Name>
-    <From>2022-02-25T09:00:00</From>
-    <To>2022-02-25T10:00:00</To>
+    <From>2022-03-04T09:00:00</From>
+    <To>2022-03-04T10:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>GRIT Series 30</Name>
-    <From>2022-02-25T10:00:00</From>
-    <To>2022-02-25T10:30:00</To>
+    <From>2022-03-04T10:00:00</From>
+    <To>2022-03-04T10:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>BodyBalance 60</Name>
-    <From>2022-02-25T10:30:00</From>
-    <To>2022-02-25T11:30:00</To>
+    <From>2022-03-04T10:30:00</From>
+    <To>2022-03-04T11:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Yoga</Name>
-    <From>2022-02-25T12:30:00</From>
-    <To>2022-02-25T13:30:00</To>
+    <From>2022-03-04T12:30:00</From>
+    <To>2022-03-04T13:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Dance Special</Name>
-    <From>2022-02-25T13:30:00</From>
-    <To>2022-02-25T14:00:00</To>
+    <From>2022-03-04T13:30:00</From>
+    <To>2022-03-04T14:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Bootcamp</Name>
-    <From>2022-02-25T14:30:00</From>
-    <To>2022-02-25T15:00:00</To>
+    <From>2022-03-04T14:30:00</From>
+    <To>2022-03-04T15:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Shape</Name>
-    <From>2022-02-25T15:30:00</From>
-    <To>2022-02-25T16:00:00</To>
+    <From>2022-03-04T15:30:00</From>
+    <To>2022-03-04T16:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Barbell</Name>
-    <From>2022-02-25T16:30:00</From>
-    <To>2022-02-25T17:00:00</To>
+    <From>2022-03-04T16:30:00</From>
+    <To>2022-03-04T17:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Abs &amp;amp; Core</Name>
-    <From>2022-02-25T17:30:00</From>
-    <To>2022-02-25T18:00:00</To>
+    <From>2022-03-04T17:30:00</From>
+    <To>2022-03-04T18:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Aerobics</Name>
-    <From>2022-02-25T18:30:00</From>
-    <To>2022-02-25T19:10:00</To>
+    <From>2022-03-04T18:30:00</From>
+    <To>2022-03-04T19:10:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Dance Special</Name>
-    <From>2022-02-25T19:30:00</From>
-    <To>2022-02-25T20:00:00</To>
+    <From>2022-03-04T19:30:00</From>
+    <To>2022-03-04T20:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Booty</Name>
-    <From>2022-02-25T20:30:00</From>
-    <To>2022-02-25T21:00:00</To>
+    <From>2022-03-04T20:30:00</From>
+    <To>2022-03-04T21:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Box</Name>
-    <From>2022-02-25T21:30:00</From>
-    <To>2022-02-25T22:00:00</To>
+    <From>2022-03-04T21:30:00</From>
+    <To>2022-03-04T22:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>BRN 60</Name>
-    <From>2022-02-26T09:00:00</From>
-    <To>2022-02-26T10:00:00</To>
+    <From>2022-03-05T09:00:00</From>
+    <To>2022-03-05T10:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>XCORE 60</Name>
-    <From>2022-02-26T10:00:00</From>
-    <To>2022-02-26T11:00:00</To>
+    <From>2022-03-05T10:00:00</From>
+    <To>2022-03-05T11:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Zumba 60</Name>
-    <From>2022-02-26T11:00:00</From>
-    <To>2022-02-26T12:00:00</To>
+    <From>2022-03-05T11:00:00</From>
+    <To>2022-03-05T12:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Shape</Name>
-    <From>2022-02-26T13:00:00</From>
-    <To>2022-02-26T13:30:00</To>
+    <From>2022-03-05T13:00:00</From>
+    <To>2022-03-05T13:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Aerobics</Name>
-    <From>2022-02-26T14:00:00</From>
-    <To>2022-02-26T14:40:00</To>
+    <From>2022-03-05T14:00:00</From>
+    <To>2022-03-05T14:40:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Booty</Name>
-    <From>2022-02-26T15:00:00</From>
-    <To>2022-02-26T15:30:00</To>
+    <From>2022-03-05T15:00:00</From>
+    <To>2022-03-05T15:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Booty 30</Name>
-    <From>2022-02-27T09:00:00</From>
-    <To>2022-02-27T09:30:00</To>
+    <From>2022-03-06T09:00:00</From>
+    <To>2022-03-06T09:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>BodyPump 60</Name>
-    <From>2022-02-27T09:30:00</From>
-    <To>2022-02-27T10:30:00</To>
+    <From>2022-03-06T09:30:00</From>
+    <To>2022-03-06T10:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Freedom Pilates 60</Name>
-    <From>2022-02-27T10:30:00</From>
-    <To>2022-02-27T11:30:00</To>
+    <From>2022-03-06T10:30:00</From>
+    <To>2022-03-06T11:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Bootcamp</Name>
-    <From>2022-02-27T12:30:00</From>
-    <To>2022-02-27T13:00:00</To>
+    <From>2022-03-06T12:30:00</From>
+    <To>2022-03-06T13:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Xcore</Name>
-    <From>2022-02-27T13:30:00</From>
-    <To>2022-02-27T14:00:00</To>
+    <From>2022-03-06T13:30:00</From>
+    <To>2022-03-06T14:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam Prinses Beatrixlaan 4</Location>
     <Name>Dance Special</Name>
-    <From>2022-02-27T14:30:00</From>
-    <To>2022-02-27T15:00:00</To>
+    <From>2022-03-06T14:30:00</From>
+    <To>2022-03-06T15:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Yoga</Name>
-    <From>2022-02-21T08:00:00</From>
-    <To>2022-02-21T09:00:00</To>
+    <From>2022-02-28T08:00:00</From>
+    <To>2022-02-28T09:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Abs &amp;amp; Core</Name>
-    <From>2022-02-21T09:00:00</From>
-    <To>2022-02-21T09:30:00</To>
+    <From>2022-02-28T09:00:00</From>
+    <To>2022-02-28T09:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Barbell</Name>
-    <From>2022-02-21T10:00:00</From>
-    <To>2022-02-21T10:30:00</To>
+    <From>2022-02-28T10:00:00</From>
+    <To>2022-02-28T10:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Bootcamp</Name>
-    <From>2022-02-21T11:00:00</From>
-    <To>2022-02-21T11:30:00</To>
+    <From>2022-02-28T11:00:00</From>
+    <To>2022-02-28T11:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Aerobics</Name>
-    <From>2022-02-21T12:00:00</From>
-    <To>2022-02-21T12:40:00</To>
+    <From>2022-02-28T12:00:00</From>
+    <To>2022-02-28T12:40:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Abs &amp;amp; Core</Name>
-    <From>2022-02-21T13:00:00</From>
-    <To>2022-02-21T13:30:00</To>
+    <From>2022-02-28T13:00:00</From>
+    <To>2022-02-28T13:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Shape</Name>
-    <From>2022-02-21T14:00:00</From>
-    <To>2022-02-21T14:30:00</To>
+    <From>2022-02-28T14:00:00</From>
+    <To>2022-02-28T14:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Dance Special</Name>
-    <From>2022-02-21T15:00:00</From>
-    <To>2022-02-21T15:30:00</To>
+    <From>2022-02-28T15:00:00</From>
+    <To>2022-02-28T15:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Barbell</Name>
-    <From>2022-02-21T16:00:00</From>
-    <To>2022-02-21T16:30:00</To>
+    <From>2022-02-28T16:00:00</From>
+    <To>2022-02-28T16:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Booty</Name>
-    <From>2022-02-21T17:00:00</From>
-    <To>2022-02-21T17:30:00</To>
+    <From>2022-02-28T17:00:00</From>
+    <To>2022-02-28T17:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Box</Name>
-    <From>2022-02-21T18:00:00</From>
-    <To>2022-02-21T18:30:00</To>
+    <From>2022-02-28T18:00:00</From>
+    <To>2022-02-28T18:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Shape</Name>
-    <From>2022-02-21T19:00:00</From>
-    <To>2022-02-21T19:30:00</To>
+    <From>2022-02-28T19:00:00</From>
+    <To>2022-02-28T19:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Dance Special</Name>
-    <From>2022-02-21T20:00:00</From>
-    <To>2022-02-21T20:30:00</To>
+    <From>2022-02-28T20:00:00</From>
+    <To>2022-02-28T20:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Barbell</Name>
-    <From>2022-02-21T21:00:00</From>
-    <To>2022-02-21T21:30:00</To>
+    <From>2022-02-28T21:00:00</From>
+    <To>2022-02-28T21:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Abs &amp;amp; Core</Name>
-    <From>2022-02-22T07:30:00</From>
-    <To>2022-02-22T08:00:00</To>
+    <From>2022-03-01T07:30:00</From>
+    <To>2022-03-01T08:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Box</Name>
-    <From>2022-02-22T08:30:00</From>
-    <To>2022-02-22T09:00:00</To>
+    <From>2022-03-01T08:30:00</From>
+    <To>2022-03-01T09:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Xcore</Name>
-    <From>2022-02-22T09:30:00</From>
-    <To>2022-02-22T10:00:00</To>
+    <From>2022-03-01T09:30:00</From>
+    <To>2022-03-01T10:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Aerobics</Name>
-    <From>2022-02-22T10:30:00</From>
-    <To>2022-02-22T11:10:00</To>
+    <From>2022-03-01T10:30:00</From>
+    <To>2022-03-01T11:10:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Booty</Name>
-    <From>2022-02-22T11:30:00</From>
-    <To>2022-02-22T12:00:00</To>
+    <From>2022-03-01T11:30:00</From>
+    <To>2022-03-01T12:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Yoga</Name>
-    <From>2022-02-22T12:30:00</From>
-    <To>2022-02-22T13:30:00</To>
+    <From>2022-03-01T12:30:00</From>
+    <To>2022-03-01T13:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Dance Special</Name>
-    <From>2022-02-22T13:30:00</From>
-    <To>2022-02-22T14:00:00</To>
+    <From>2022-03-01T13:30:00</From>
+    <To>2022-03-01T14:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Bootcamp</Name>
-    <From>2022-02-22T14:30:00</From>
-    <To>2022-02-22T15:00:00</To>
+    <From>2022-03-01T14:30:00</From>
+    <To>2022-03-01T15:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Shape</Name>
-    <From>2022-02-22T15:30:00</From>
-    <To>2022-02-22T16:00:00</To>
-  </UniformGroupLesson>
-  <UniformGroupLesson>
-    <Provider>BasicFit</Provider>
-    <Location>Schiedam De Brauwweg 46</Location>
-    <Name>Barbell</Name>
-    <From>2022-02-22T16:30:00</From>
-    <To>2022-02-22T17:00:00</To>
+    <From>2022-03-01T15:30:00</From>
+    <To>2022-03-01T16:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Abs &amp;amp; Core</Name>
-    <From>2022-02-22T17:30:00</From>
-    <To>2022-02-22T18:00:00</To>
+    <From>2022-03-01T17:30:00</From>
+    <To>2022-03-01T18:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Aerobics</Name>
-    <From>2022-02-22T18:30:00</From>
-    <To>2022-02-22T19:10:00</To>
+    <From>2022-03-01T18:30:00</From>
+    <To>2022-03-01T19:10:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Dance Special</Name>
-    <From>2022-02-22T19:30:00</From>
-    <To>2022-02-22T20:00:00</To>
+    <From>2022-03-01T19:30:00</From>
+    <To>2022-03-01T20:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Booty</Name>
-    <From>2022-02-22T20:30:00</From>
-    <To>2022-02-22T21:00:00</To>
+    <From>2022-03-01T20:30:00</From>
+    <To>2022-03-01T21:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Shape</Name>
-    <From>2022-02-22T21:30:00</From>
-    <To>2022-02-22T22:00:00</To>
+    <From>2022-03-01T21:30:00</From>
+    <To>2022-03-01T22:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Xcore</Name>
-    <From>2022-02-23T08:00:00</From>
-    <To>2022-02-23T08:30:00</To>
+    <From>2022-03-02T08:00:00</From>
+    <To>2022-03-02T08:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Aerobics</Name>
-    <From>2022-02-23T09:00:00</From>
-    <To>2022-02-23T09:40:00</To>
+    <From>2022-03-02T09:00:00</From>
+    <To>2022-03-02T09:40:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Booty</Name>
-    <From>2022-02-23T10:00:00</From>
-    <To>2022-02-23T10:30:00</To>
+    <From>2022-03-02T10:00:00</From>
+    <To>2022-03-02T10:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Yoga</Name>
-    <From>2022-02-23T11:00:00</From>
-    <To>2022-02-23T12:00:00</To>
+    <From>2022-03-02T11:00:00</From>
+    <To>2022-03-02T12:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Shape</Name>
-    <From>2022-02-23T12:00:00</From>
-    <To>2022-02-23T12:30:00</To>
+    <From>2022-03-02T12:00:00</From>
+    <To>2022-03-02T12:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Bootcamp</Name>
-    <From>2022-02-23T13:00:00</From>
-    <To>2022-02-23T13:30:00</To>
+    <From>2022-03-02T13:00:00</From>
+    <To>2022-03-02T13:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Barbell</Name>
-    <From>2022-02-23T14:00:00</From>
-    <To>2022-02-23T14:30:00</To>
+    <From>2022-03-02T14:00:00</From>
+    <To>2022-03-02T14:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Dance Special</Name>
-    <From>2022-02-23T15:00:00</From>
-    <To>2022-02-23T15:30:00</To>
+    <From>2022-03-02T15:00:00</From>
+    <To>2022-03-02T15:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Box</Name>
-    <From>2022-02-23T16:00:00</From>
-    <To>2022-02-23T16:30:00</To>
+    <From>2022-03-02T16:00:00</From>
+    <To>2022-03-02T16:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Aerobics</Name>
-    <From>2022-02-23T17:00:00</From>
-    <To>2022-02-23T17:40:00</To>
+    <From>2022-03-02T17:00:00</From>
+    <To>2022-03-02T17:40:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Shape</Name>
-    <From>2022-02-23T18:00:00</From>
-    <To>2022-02-23T18:30:00</To>
+    <From>2022-03-02T18:00:00</From>
+    <To>2022-03-02T18:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Abs &amp;amp; Core</Name>
-    <From>2022-02-23T19:00:00</From>
-    <To>2022-02-23T19:30:00</To>
+    <From>2022-03-02T19:00:00</From>
+    <To>2022-03-02T19:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Barbell</Name>
-    <From>2022-02-23T20:00:00</From>
-    <To>2022-02-23T20:30:00</To>
+    <From>2022-03-02T20:00:00</From>
+    <To>2022-03-02T20:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Xcore</Name>
-    <From>2022-02-23T21:00:00</From>
-    <To>2022-02-23T21:30:00</To>
+    <From>2022-03-02T21:00:00</From>
+    <To>2022-03-02T21:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Dance Special</Name>
-    <From>2022-02-24T07:30:00</From>
-    <To>2022-02-24T08:00:00</To>
+    <From>2022-03-03T07:30:00</From>
+    <To>2022-03-03T08:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Booty</Name>
-    <From>2022-02-24T08:30:00</From>
-    <To>2022-02-24T09:00:00</To>
+    <From>2022-03-03T08:30:00</From>
+    <To>2022-03-03T09:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Xcore</Name>
-    <From>2022-02-24T09:30:00</From>
-    <To>2022-02-24T10:00:00</To>
+    <From>2022-03-03T09:30:00</From>
+    <To>2022-03-03T10:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Barbell</Name>
-    <From>2022-02-24T10:30:00</From>
-    <To>2022-02-24T11:00:00</To>
+    <From>2022-03-03T10:30:00</From>
+    <To>2022-03-03T11:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Box</Name>
-    <From>2022-02-24T11:30:00</From>
-    <To>2022-02-24T12:00:00</To>
+    <From>2022-03-03T11:30:00</From>
+    <To>2022-03-03T12:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Abs &amp;amp; Core</Name>
-    <From>2022-02-24T12:30:00</From>
-    <To>2022-02-24T13:00:00</To>
+    <From>2022-03-03T12:30:00</From>
+    <To>2022-03-03T13:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Aerobics</Name>
-    <From>2022-02-24T13:30:00</From>
-    <To>2022-02-24T14:10:00</To>
+    <From>2022-03-03T13:30:00</From>
+    <To>2022-03-03T14:10:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Yoga</Name>
-    <From>2022-02-24T14:30:00</From>
-    <To>2022-02-24T15:30:00</To>
+    <From>2022-03-03T14:30:00</From>
+    <To>2022-03-03T15:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Shape</Name>
-    <From>2022-02-24T15:30:00</From>
-    <To>2022-02-24T16:00:00</To>
+    <From>2022-03-03T15:30:00</From>
+    <To>2022-03-03T16:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Bootcamp</Name>
-    <From>2022-02-24T16:30:00</From>
-    <To>2022-02-24T17:00:00</To>
+    <From>2022-03-03T16:30:00</From>
+    <To>2022-03-03T17:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Barbell</Name>
-    <From>2022-02-24T17:30:00</From>
-    <To>2022-02-24T18:00:00</To>
+    <From>2022-03-03T17:30:00</From>
+    <To>2022-03-03T18:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Xcore</Name>
-    <From>2022-02-24T18:30:00</From>
-    <To>2022-02-24T19:00:00</To>
+    <From>2022-03-03T18:30:00</From>
+    <To>2022-03-03T19:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Shape</Name>
-    <From>2022-02-24T19:30:00</From>
-    <To>2022-02-24T20:00:00</To>
+    <From>2022-03-03T19:30:00</From>
+    <To>2022-03-03T20:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Abs &amp;amp; Core</Name>
-    <From>2022-02-24T20:30:00</From>
-    <To>2022-02-24T21:00:00</To>
+    <From>2022-03-03T20:30:00</From>
+    <To>2022-03-03T21:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Dance Special</Name>
-    <From>2022-02-24T21:30:00</From>
-    <To>2022-02-24T22:00:00</To>
+    <From>2022-03-03T21:30:00</From>
+    <To>2022-03-03T22:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Bootcamp</Name>
-    <From>2022-02-25T08:00:00</From>
-    <To>2022-02-25T08:30:00</To>
+    <From>2022-03-04T08:00:00</From>
+    <To>2022-03-04T08:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Barbell</Name>
-    <From>2022-02-25T09:00:00</From>
-    <To>2022-02-25T09:30:00</To>
+    <From>2022-03-04T09:00:00</From>
+    <To>2022-03-04T09:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Box</Name>
-    <From>2022-02-25T10:00:00</From>
-    <To>2022-02-25T10:30:00</To>
+    <From>2022-03-04T10:00:00</From>
+    <To>2022-03-04T10:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Xcore</Name>
-    <From>2022-02-25T11:00:00</From>
-    <To>2022-02-25T11:30:00</To>
+    <From>2022-03-04T11:00:00</From>
+    <To>2022-03-04T11:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Dance Special</Name>
-    <From>2022-02-25T12:00:00</From>
-    <To>2022-02-25T12:30:00</To>
+    <From>2022-03-04T12:00:00</From>
+    <To>2022-03-04T12:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Booty</Name>
-    <From>2022-02-25T13:00:00</From>
-    <To>2022-02-25T13:30:00</To>
+    <From>2022-03-04T13:00:00</From>
+    <To>2022-03-04T13:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Shape</Name>
-    <From>2022-02-25T14:00:00</From>
-    <To>2022-02-25T14:30:00</To>
+    <From>2022-03-04T14:00:00</From>
+    <To>2022-03-04T14:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Abs &amp;amp; Core</Name>
-    <From>2022-02-25T15:00:00</From>
-    <To>2022-02-25T15:30:00</To>
+    <From>2022-03-04T15:00:00</From>
+    <To>2022-03-04T15:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Barbell</Name>
-    <From>2022-02-25T16:00:00</From>
-    <To>2022-02-25T16:30:00</To>
+    <From>2022-03-04T16:00:00</From>
+    <To>2022-03-04T16:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Yoga</Name>
-    <From>2022-02-25T17:00:00</From>
-    <To>2022-02-25T18:00:00</To>
+    <From>2022-03-04T17:00:00</From>
+    <To>2022-03-04T18:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Abs &amp;amp; Core</Name>
-    <From>2022-02-25T18:00:00</From>
-    <To>2022-02-25T18:30:00</To>
+    <From>2022-03-04T18:00:00</From>
+    <To>2022-03-04T18:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Bootcamp</Name>
-    <From>2022-02-25T19:00:00</From>
-    <To>2022-02-25T19:30:00</To>
+    <From>2022-03-04T19:00:00</From>
+    <To>2022-03-04T19:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Box</Name>
-    <From>2022-02-25T20:00:00</From>
-    <To>2022-02-25T20:30:00</To>
+    <From>2022-03-04T20:00:00</From>
+    <To>2022-03-04T20:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Yoga</Name>
-    <From>2022-02-25T21:00:00</From>
-    <To>2022-02-25T22:00:00</To>
+    <From>2022-03-04T21:00:00</From>
+    <To>2022-03-04T22:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Abs &amp;amp; Core</Name>
-    <From>2022-02-26T09:30:00</From>
-    <To>2022-02-26T10:00:00</To>
+    <From>2022-03-05T09:30:00</From>
+    <To>2022-03-05T10:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Aerobics</Name>
-    <From>2022-02-26T10:30:00</From>
-    <To>2022-02-26T11:10:00</To>
+    <From>2022-03-05T10:30:00</From>
+    <To>2022-03-05T11:10:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Shape</Name>
-    <From>2022-02-26T11:30:00</From>
-    <To>2022-02-26T12:00:00</To>
+    <From>2022-03-05T11:30:00</From>
+    <To>2022-03-05T12:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Barbell</Name>
-    <From>2022-02-26T12:30:00</From>
-    <To>2022-02-26T13:00:00</To>
+    <From>2022-03-05T12:30:00</From>
+    <To>2022-03-05T13:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Xcore</Name>
-    <From>2022-02-26T13:30:00</From>
-    <To>2022-02-26T14:00:00</To>
+    <From>2022-03-05T13:30:00</From>
+    <To>2022-03-05T14:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Dance Special</Name>
-    <From>2022-02-26T14:30:00</From>
-    <To>2022-02-26T15:00:00</To>
+    <From>2022-03-05T14:30:00</From>
+    <To>2022-03-05T15:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Dance Special</Name>
-    <From>2022-02-27T10:00:00</From>
-    <To>2022-02-27T10:30:00</To>
+    <From>2022-03-06T10:00:00</From>
+    <To>2022-03-06T10:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Box</Name>
-    <From>2022-02-27T11:00:00</From>
-    <To>2022-02-27T11:30:00</To>
+    <From>2022-03-06T11:00:00</From>
+    <To>2022-03-06T11:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Yoga</Name>
-    <From>2022-02-27T12:00:00</From>
-    <To>2022-02-27T13:00:00</To>
+    <From>2022-03-06T12:00:00</From>
+    <To>2022-03-06T13:00:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Shape</Name>
-    <From>2022-02-27T13:00:00</From>
-    <To>2022-02-27T13:30:00</To>
+    <From>2022-03-06T13:00:00</From>
+    <To>2022-03-06T13:30:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Aerobics</Name>
-    <From>2022-02-27T14:00:00</From>
-    <To>2022-02-27T14:40:00</To>
+    <From>2022-03-06T14:00:00</From>
+    <To>2022-03-06T14:40:00</To>
   </UniformGroupLesson>
   <UniformGroupLesson>
     <Provider>BasicFit</Provider>
     <Location>Schiedam De Brauwweg 46</Location>
     <Name>Booty</Name>
-    <From>2022-02-27T15:00:00</From>
-    <To>2022-02-27T15:30:00</To>
+    <From>2022-03-06T15:00:00</From>
+    <To>2022-03-06T15:30:00</To>
   </UniformGroupLesson>
 </ArrayOfUniformGroupLesson>

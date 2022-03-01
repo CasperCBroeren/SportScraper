@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using SportScraper.Data;
 
 namespace SportScraper
 {
@@ -21,10 +22,14 @@ namespace SportScraper
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton<IResultWriter, XmlResultWriter>();
+            services.AddSingleton<IBasicFitScraper, BasicFitScraper>();
+            services.AddSingleton<ISportInformation, DiskSportInformation>();
             services.AddHttpClient();
-            services.AddHostedService<BasicFitScraper>();
-
+            
             services.AddRazorPages();
+
+            services.AddHostedService<BasicFitScraper>();
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

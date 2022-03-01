@@ -1,6 +1,6 @@
 ﻿using HtmlAgilityPack;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
+using SportScraper.Data;
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
@@ -9,29 +9,38 @@ using System.Threading.Tasks;
 
 namespace SportScraper
 {
-    public class BasicFitScraper : IHostedService
+    public class BasicFitScraper : BackgroundService, IBasicFitScraper
     {
-        private readonly IConfiguration configuration;
+        private readonly ISportInformation sportInformation;
         private readonly IHttpClientFactory httpClientFactory;
         private readonly IResultWriter resultWriter;
 
-        public BasicFitScraper(IConfiguration configuration, 
+        public BasicFitScraper(ISportInformation sportInformation, 
             IHttpClientFactory httpClientFactory,
             IResultWriter resultWriter)
         {
-            this.configuration = configuration;
+            this.sportInformation = sportInformation;
             this.httpClientFactory = httpClientFactory;
             this.resultWriter = resultWriter;
         }
 
-        public async Task StartAsync(CancellationToken cancellationToken)
+        protected override async Task ExecuteAsync(CancellationToken cancellationToken)
         {
-            this.resultWriter.RegisterProducer();
-            var sites = configuration.GetSection("basicfit").GetChildren();
+            while (!cancellationToken.IsCancellationRequested)
+            {
+                await DownloadData();
+                Thread.Sleep(24 * 60 * 60 * 1000);
+            }             
+        }
+
+        public async Task DownloadData()
+        {
+            this.resultWriter.RegisterProducer("BasicFit");
+            var sites = await sportInformation.GetAsync("BasicFit");
             var client = this.httpClientFactory.CreateClient();
             foreach (var site in sites)
             {
-                var clubId = site.Value.Substring(site.Value.Length - 37, 32);
+                var clubId = site.Substring(site.Length - 37, 32);
                 var url = $"https://www.basic-fit.com/on/demandware.store/Sites-BFE-Site/nl_NL/Booker-Timetable?club_id={clubId}&seotitle=Sportschool%20Schiedam%20De%20Brauwweg&seosequence=13?club_id={clubId}";
                 Console.WriteLine($"Scraping site: {url}");
                 var body = await client.GetStringAsync(url);
@@ -52,7 +61,7 @@ namespace SportScraper
                         var time = cell.SelectSingleNode("span[2]").InnerText.Split('-');
                         if (!string.IsNullOrWhiteSpace(name) && time.Length == 2)
                         {
-                            this.resultWriter.SaveToOuput(new UniformGroupLesson()
+                            this.resultWriter.SaveToOuput("BasicFit", new UniformGroupLesson()
                             {
                                 Provider = "BasicFit",
                                 Location = locationName.Attributes["value"].Value,
@@ -60,12 +69,12 @@ namespace SportScraper
                                 From = ConstructWithTime(day, time[0].Trim()),
                                 To = ConstructWithTime(day, time[1].Trim()),
                             });
-                        }                       
+                        }
                     }
 
                 }
             }
-            this.resultWriter.ProducerEnds(); 
+            this.resultWriter.ProducerEnds("BasicFit");
         }
 
         private DateTime ConstructWithTime(DateTime day, string hourMinutes)
@@ -121,5 +130,10 @@ namespace SportScraper
           
             return Task.CompletedTask;
         }
+    }
+
+    public interface IBasicFitScraper
+    {
+        Task DownloadData();
     }
 }

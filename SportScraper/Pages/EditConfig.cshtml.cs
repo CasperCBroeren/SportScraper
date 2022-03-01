@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
+using SportScraper.Data;
+using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace SportScraper.Pages
 {
@@ -9,39 +10,37 @@ namespace SportScraper.Pages
     {
         public string TypeOfConfig { get; private set; }
         public string[] ConfigItems { get; set; }
-        private readonly ILogger<IndexModel> _logger;
-        private readonly IConfiguration configuration;
+        private readonly ISportInformation sportInformation;
+        private readonly IBasicFitScraper basicFitScraper;
 
-        public EditConfigModel(ILogger<IndexModel> logger, IConfiguration configuration)
+        public EditConfigModel(ISportInformation sportInformation, IBasicFitScraper basicFitScraper)
         {
-            _logger = logger;
-            this.configuration = configuration;
+            this.sportInformation = sportInformation;
+            this.basicFitScraper = basicFitScraper;
         }
 
-        public void OnGet(string type)
+        public async Task OnGetAsync(string type)
         {
             this.TypeOfConfig = type;
-            this.ConfigItems = configuration.GetSection(type.ToLower())
-                .GetChildren()
-                .ToList()
-                .Select(x => x.Value)
+            this.ConfigItems = (await sportInformation.GetAsync(type.ToString()))
                 .ToArray();
         }
 
-        public void OnPost(string type)
+        public async Task OnPostAsync(string type)
         {
-
             this.TypeOfConfig = type;
-            var newCollection = configuration.GetSection(type.ToLower())
-                .GetChildren()
-                .ToList()
-                .Select(x => x.Value)
-                .ToList();
-
-            var newItem = this.Request.Form["field-" + newCollection.Count];
-            newCollection.Add(newItem);
-            configuration.AddToSection(type, newCollection.ToArray());
-            this.ConfigItems = newCollection.ToArray();
+            var newCollection = new List<string>();
+            for (var i=0; i< this.Request.Form.Count; i++)
+            {
+                var newItem = this.Request.Form["field-" + newCollection.Count];
+                if (!string.IsNullOrWhiteSpace(newItem))
+                {
+                    newCollection.Add(newItem);
+                }
+            }
+            
+            this.ConfigItems = await sportInformation.Set(type, newCollection.ToArray());
+            await basicFitScraper.DownloadData();
         }
     }
 }

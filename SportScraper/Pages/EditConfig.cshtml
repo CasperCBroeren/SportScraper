@@ -5,6 +5,7 @@
         <div class="rounded-tl-3xl bg-gradient-to-r from-blue-900 to-gray-800 p-4 shadow text-2xl text-white">
             <h1 class="font-bold pl-2">Configuration for @Model.TypeOfConfig</h1>
         </div>
+
     </div>
     <div class="flex flex-wrap"> 
         <form class="container mx-auto" method="post">
@@ -18,17 +19,33 @@
 
                 <fieldset class="flex mb-3">
                     <input type="text" value="@item" class="w-full" name="field-@i" />
-                    <a href="" class="ml-6 ">-</a>
+                    <a href="#" class="ml-6 remove">-</a>
                     <br />
                 </fieldset>
 
             }
             <fieldset class="flex mb-3">
                 <input type="text" value="" class="w-full" name="field-@(Model.ConfigItems.Length)" />
-                <a href="" class="ml-6 ">+</a>
+                <a href="#" class="ml-6 add">+</a>
                 <br />
             </fieldset>
             <input type="submit" value="Save" class="bg-white pl-3 pr-3 pt-1 pb-1" />
         </form>
+        <script>
+            var maxItem = @(Model.ConfigItems.Length);
+            var items = document.querySelectorAll('.remove');
+            [...items].forEach(x => x.addEventListener("click", (e) => {
+                e.path[1].remove();
+                e.preventDefault();
+                return false;
+            }));
+            document.querySelector('.add').addEventListener('click', (e) => {
+                maxItem++;
+                e.path[1].insertAdjacentHTML("beforebegin", `<fieldset class="flex mb-3">
+                <input type="text" value="" class="w-full" name="field-${maxItem}" />               
+                <br />
+            </fieldset>`)
+            });
+        </script>
     </div>
 </div>

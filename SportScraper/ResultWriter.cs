@@ -1,16 +1,16 @@
 ﻿using Microsoft.Extensions.Configuration;
 using System.Collections.Generic;
 using System.IO;
-using System.Xml;
+using System.Linq;
 using System.Xml.Serialization;
 
 namespace SportScraper
 {
     public interface IResultWriter
     {
-        void RegisterProducer();
-        void SaveToOuput(UniformGroupLesson item);
-        void ProducerEnds();
+        void RegisterProducer(string producerName);
+        void SaveToOuput(string producerName, UniformGroupLesson item);
+        void ProducerEnds(string producerName);
 
         IReadOnlyList<UniformGroupLesson> All();
     }
@@ -18,7 +18,7 @@ namespace SportScraper
     public class XmlResultWriter : IResultWriter
     {
         private int producerCount = 0;
-        private List<UniformGroupLesson> items = new List<UniformGroupLesson>();
+        private Dictionary<string, List<UniformGroupLesson>> items = new Dictionary<string, List<UniformGroupLesson>>();
         private string resultPath;
 
         public XmlResultWriter(IConfiguration configuration)
@@ -27,30 +27,29 @@ namespace SportScraper
 
         }
 
-        public IReadOnlyList<UniformGroupLesson> All() => items;
-
-        public void ProducerEnds()
+        public IReadOnlyList<UniformGroupLesson> All() => items.Values.SelectMany(x => x).ToList();
+         
+        public void ProducerEnds(string producerName)
         {
-            producerCount--;
-            if (producerCount == 0)
-            {
-                if (File.Exists(this.resultPath))
-                    File.Delete(this.resultPath);
-
-                var x = new XmlSerializer(items.GetType());
-                using var fileStream = File.Create(this.resultPath);
-                x.Serialize(fileStream, items);
-            }
+            if (File.Exists(this.resultPath))
+                File.Delete(this.resultPath);
+            var toSaveItems = All();
+            var x = new XmlSerializer(toSaveItems.GetType());
+            using var fileStream = File.Create(this.resultPath);
+            x.Serialize(fileStream, toSaveItems);
         }
 
-        public void RegisterProducer()
+        public void RegisterProducer(string producerName)
         {
+            this.items.Remove(producerName);
+            this.items.Add(producerName, new List<UniformGroupLesson>());
             producerCount++;
         }
 
-        public void SaveToOuput(UniformGroupLesson item)
+        public void SaveToOuput(string producerName, UniformGroupLesson item)
         {
-            this.items.Add(item);
+            this.items[producerName].Add(item);
         }
+         
     }
 }
