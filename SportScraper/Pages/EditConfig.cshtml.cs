@@ -10,6 +10,8 @@ namespace SportScraper.Pages
     {
         public string TypeOfConfig { get; private set; }
         public string[] ConfigItems { get; set; }
+        public string Message { get; private set; }
+
         private readonly ISportInformation sportInformation;
         private readonly IBasicFitScraper basicFitScraper;
 
@@ -40,7 +42,8 @@ namespace SportScraper.Pages
             }
             
             this.ConfigItems = await sportInformation.Set(type, newCollection.ToArray());
-            await basicFitScraper.DownloadData();
+            basicFitScraper.DownloadData();
+            this.Message = "The config has been updated, the sites will be scraped. Go back and see the indicator change. Then download the file (top right)";
         }
     }
 }

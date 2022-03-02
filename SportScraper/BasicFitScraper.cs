@@ -40,38 +40,45 @@ namespace SportScraper
             var client = this.httpClientFactory.CreateClient();
             foreach (var site in sites)
             {
-                var clubId = site.Substring(site.Length - 37, 32);
-                var url = $"https://www.basic-fit.com/on/demandware.store/Sites-BFE-Site/nl_NL/Booker-Timetable?club_id={clubId}&seotitle=Sportschool%20Schiedam%20De%20Brauwweg&seosequence=13?club_id={clubId}";
-                Console.WriteLine($"Scraping site: {url}");
-                var body = await client.GetStringAsync(url);
-                var doc = new HtmlDocument();
-                doc.LoadHtml(body);
-                var locationName = doc.DocumentNode.SelectSingleNode(@"//div[@class=""filter-search asset-search-block js-search-bar-form""]/input[2]");
-                var timetable = doc.DocumentNode.SelectSingleNode(@"//section[@class=""timetable-component desktop""]//div[@class=""timetable""]");
-                var timetableHeaders = timetable.SelectNodes(@"//div[@class=""timetable-row""]/div/p");
-                var headers = ParseHeaders(timetableHeaders);
-
-                for (int i = 0; i < headers.Length; i++)
+                try
                 {
-                    var day = headers[i];
-                    var dayBox = timetable.SelectNodes($@"//div[@class=""timetable-col__container""]/div[{i + 1}]/div/div");
-                    foreach (var cell in dayBox)
-                    {
-                        var name = cell.SelectSingleNode("span[1]").InnerText.Replace("\n", string.Empty);
-                        var time = cell.SelectSingleNode("span[2]").InnerText.Split('-');
-                        if (!string.IsNullOrWhiteSpace(name) && time.Length == 2)
-                        {
-                            this.resultWriter.SaveToOuput("BasicFit", new UniformGroupLesson()
-                            {
-                                Provider = "BasicFit",
-                                Location = locationName.Attributes["value"].Value,
-                                Name = name,
-                                From = ConstructWithTime(day, time[0].Trim()),
-                                To = ConstructWithTime(day, time[1].Trim()),
-                            });
-                        }
-                    }
+                    var clubId = site.Substring(site.Length - 37, 32);
+                    var url = $"https://www.basic-fit.com/on/demandware.store/Sites-BFE-Site/nl_NL/Booker-Timetable?club_id={clubId}&seotitle=Sportschool%20Schiedam%20De%20Brauwweg&seosequence=13?club_id={clubId}";
+                    Console.WriteLine($"Scraping site: {url}");
+                    var body = await client.GetStringAsync(url);
+                    var doc = new HtmlDocument();
+                    doc.LoadHtml(body);
+                    var locationName = doc.DocumentNode.SelectSingleNode(@"//div[@class=""filter-search asset-search-block js-search-bar-form""]/input[2]");
+                    var timetable = doc.DocumentNode.SelectSingleNode(@"//section[@class=""timetable-component desktop""]//div[@class=""timetable""]");
+                    var timetableHeaders = timetable.SelectNodes(@"//div[@class=""timetable-row""]/div/p");
+                    var headers = ParseHeaders(timetableHeaders);
 
+                    for (int i = 0; i < headers.Length; i++)
+                    {
+                        var day = headers[i];
+                        var dayBox = timetable.SelectNodes($@"//div[@class=""timetable-col__container""]/div[{i + 1}]/div/div");
+                        foreach (var cell in dayBox)
+                        {
+                            var name = cell.SelectSingleNode("span[1]").InnerText.Replace("\n", string.Empty);
+                            var time = cell.SelectSingleNode("span[2]").InnerText.Split('-');
+                            if (!string.IsNullOrWhiteSpace(name) && time.Length == 2)
+                            {
+                                this.resultWriter.SaveToOuput("BasicFit", new UniformGroupLesson()
+                                {
+                                    Provider = "BasicFit",
+                                    Location = locationName.Attributes["value"].Value,
+                                    Name = name,
+                                    From = ConstructWithTime(day, time[0].Trim()),
+                                    To = ConstructWithTime(day, time[1].Trim()),
+                                });
+                            }
+                        }
+
+                    }
+                }
+                catch(Exception exc)
+                {
+                    Console.WriteLine($"[{site}] Download failed {exc.Message}");
                 }
             }
             this.resultWriter.ProducerEnds("BasicFit");
